@@ -1,0 +1,35 @@
+## Setup Instructions
+1. Clone the Repository
+2. Create and Activate a Virtual Environment
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+3. Install Dependencies
+```
+pip install -r requirements.txt
+```
+4. Initialize the Database
+```flask shell
+>>> from app import db
+>>> db.create_all()
+>>> exit()
+```
+5. Run the Application
+```
+flask run --host=0.0.0.0 --port=5000
+```
+Then open your browser and visit:
+http://localhost:5000/
+
+Project Structure
+```
+url_repo/
+│
+├── app.py              # Main application file
+├── models.py           # Database models
+├── templates/
+│   └── home.html       # HTML template
+├── static/             # (Optional) Static files like CSS, JS
+├── venv/               # Virtual environment
+└── README.md           # This file
