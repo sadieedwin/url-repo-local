@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Add New Link</h1>
+<form method="POST" action="{{ url_for('add_link') }}">
+    <div class="mb-3">
+        <label for="title" class="form-label">Title *</label>
+        <input type="text" class="form-control" id="title" name="title" required>
+    </div>
+
+    <div class="mb-3">
+        <label for="url" class="form-label">URL *</label>
+        <input type="text" class="form-control" id="url" name="url" required>
+    </div>
+
+    <div class="mb-3">
+        <label for="description" class="form-label">Description</label>
+        <textarea class="form-control" id="description" name="description" rows="3"></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label for="tags" class="form-label">Tags</label>
+        <input type="text" class="form-control" id="tags" name="tags" placeholder="e.g. monitoring, AWS, Linux">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save Link</button>
+    <a href="{{ url_for('home') }}" class="btn btn-secondary">Cancel</a>
+</form>
+{% endblock %}
+
