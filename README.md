@@ -28,10 +28,16 @@ venv\Scripts\activate      # Windows
 ```
 pip install flask flask_sqlalchemy
 ```
-7. Run the Flask app
+6. Create the database; open python shell and run
+```python
+>>> from app import db, app
+>>> with app.app_context():
+...     db.create_all()
+... 
+>>> exit()
 ```
-flask run
-or
+8. Run the Flask app
+```
 flask run --host=0.0.0.0 --port=5001
 ```
 8. Access your app Open your browser and visit: `http://127.0.0.1:5001`
