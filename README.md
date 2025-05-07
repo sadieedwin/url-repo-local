@@ -31,5 +31,7 @@ pip install flask flask_sqlalchemy
 7. Run the Flask app
 ```
 flask run
+or
+flask run --host=0.0.0.0 --port=5001
 ```
 8. Access your app Open your browser and visit: `http://127.0.0.1:5001`
