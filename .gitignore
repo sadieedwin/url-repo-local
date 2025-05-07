@@ -1,0 +1,9 @@
+#ignore the following files/folders
+
+__pycache__/
+
+venv/
+
+flask_background.ps1
+
+flask_run.bat
