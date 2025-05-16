@@ -7,3 +7,5 @@ venv/
 flask_background.ps1
 
 flask_run.bat
+
+instance/
