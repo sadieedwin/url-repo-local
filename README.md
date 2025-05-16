@@ -1,5 +1,5 @@
 # url-repo-local
-_This is a Local Version of the URL Repository Web App._
+_This is a Local Version of the URL Repository Web App (no need to deploy a server)._
 
 [ Original URL Repo ](https://github.com/sadieedwin/url-repo/tree/main)
 
