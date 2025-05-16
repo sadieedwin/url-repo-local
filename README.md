@@ -1,7 +1,5 @@
 # url-repo-local
-_This is a Local Version of the URL Repository Web App (no need to deploy a server)._
-
-[ Original URL Repo ](https://github.com/sadieedwin/url-repo/tree/main)
+_This is a Local Version of the [URL Repository Web App](https://github.com/sadieedwin/url-repo/tree/main) (no need to deploy a server)._
 
 ## Setup: 
 
@@ -20,7 +18,6 @@ cd url-repo-local
 ```
 4. Setup a virtual environment
 
-Open a terminal and run the commands:
 ```
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
