@@ -19,6 +19,8 @@ git clone https://github.com/sadieedwin/url-repo-local.git
 cd url-repo-local
 ```
 4. Setup a virtual environment
+
+Open a terminal and run the commands:
 ```
 python -m venv venv
 source venv/bin/activate   # Mac/Linux
