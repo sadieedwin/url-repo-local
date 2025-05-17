@@ -44,7 +44,7 @@
         <!-- Tag Filters -->
 {% if all_tags %}
 <div class="mb-3">
-    <strong>Filter by Tag:</strong>
+    <strong>Tags:</strong>
     {% for tag in all_tags %}
         <a href="{{ url_for('home', tag=tag) }}" class="btn btn-outline-secondary btn-sm">{{ tag }}</a>
     {% endfor %}
