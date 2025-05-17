@@ -19,7 +19,7 @@ cd url-repo-local
 4. Setup a virtual environment
 
 ```
-python -m venv venv
+python -m venv venv        # py -m venv venv # for latest version of python
 source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
 ```
@@ -27,7 +27,7 @@ venv\Scripts\activate      # Windows
 ```
 pip install flask flask_sqlalchemy
 ```
-6. Create the database; open python shell and run
+6. Create the database; open `python` shell and run these commands:
 ```python
 >>> from app import db, app
 >>> with app.app_context():
@@ -39,4 +39,5 @@ pip install flask flask_sqlalchemy
 ```
 flask run --host=0.0.0.0 --port=5001
 ```
-8. Access your app Open your browser and visit: `http://127.0.0.1:5001`
+8. Access the app
+   - Open your browser and visit: `http://127.0.0.1:5001`
